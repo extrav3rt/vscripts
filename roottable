@@ -1,0 +1,1064 @@
+
+{
+   split	= (native function : 0x077DAC80)
+   ShowMessage	= (native function : 0x080B9E18)
+   GetAverageSurvivorFlowDistance	= (native function : 0x069D6328)
+   GetFlowDistanceForPosition	= (native function : 0x069D7648)
+   resurrectunreachable	= (native function : 0x077D8440)
+   GetFlowPercentForPosition	= (native function : 0x069D7A38)
+   DoEntFire	= (native function : 0x080B9CF8)
+   print_indent	= 0
+   SPAWN_FLAGS = 
+   {
+      TARGETSPAWN	= 4
+      SPAWN	= 1
+      NOSPAWN	= 2
+   }
+   IsPlayerABot	= (native function : 0x069D7D50)
+   FindCircularReference	= (function : 0x073D8C60)
+   GetPhysVelocity	= (native function : 0x06608948)
+   atan2	= (native function : 0x077D8A40)
+   g_ClearoutLoud	= false
+   _charsize_	= 1
+   ScriptDebugClearWatches	= (function : 0x071E3690)
+   IsWeakref	= (native function : 0x077D9640)
+   NavMesh	= (instance : 0x045FD298)
+   cos	= (native function : 0x077D8000)
+   Vector4D	= (class : 0x047DFB10)
+   __RunEventCallbacks	= (function : 0x071B5740)
+   g_ModeScript = 
+   {
+      DirectorOptions = 
+      {
+         SpawnSetRule	= 1
+         PreferredMobDirection	= -1
+         ScriptedStageType	= 9
+         SpawnDirectionCount	= 0
+         ScriptedStageValue	= 1000
+         SpawnDirectionMask	= 0
+         cm_AggressiveSpecials	= 1
+      }
+      MutationState = 
+      {
+         ModeName	= "versus"
+         MapName	= "c10m1_caves"
+         StartActive	= true
+      }
+      MyFnName	= (function : 0x071B6C10)
+      __vname	= "ChallengeScript"
+      __vrefs	= 1
+      TickerHUD = 
+      {
+         Fields = 
+         {
+            server_logo = 
+            {
+               datafunc	= (function : 0x076592F0)
+               dataval	= "lkjdaflkjasdlk"
+               flags	= 280
+               slot	= 6
+            }
+         }
+      }
+   }
+   ScriptEventCallbacks = 
+   {
+   }
+   PI	= 3.14159
+   __RunGameEventCallbacks	= (function : 0x071B4930)
+   Director	= (instance : 0x0460D570)
+   strip	= (native function : 0x077D9C00)
+   lstrip	= (native function : 0x077D99C0)
+   format	= (native function : 0x077DAB80)
+   rstrip	= (native function : 0x077D8D00)
+   DropFire	= (native function : 0x069D4900)
+   ScriptDebugDumpKeys	= (function : 0x046B51F0)
+   __DumpScope	= (function : 0x071E7840)
+   __CollectGameEventCallbacks	= (function : 0x071E1B30)
+   abs	= (native function : 0x077DAD40)
+   DebugDrawScreenTextLine	= (native function : 0x069D7CC0)
+   ScriptDebugTraceAllOn	= false
+   ZSpawn	= (native function : 0x069D5CF8)
+   RotateOrientation	= (native function : 0x06609170)
+   DirectorScript = 
+   {
+      HUD_MID_TOP	= 2
+      FINALE_CUSTOM_TANK	= 8
+      SPAWNDIR_NE	= 2
+      DMG_BUCKSHOT	= 536870912
+      HUD_SCORE_3	= 13
+      HUD_SPECIAL_ROUNDTIME	= 5
+      HUD_SCORE_1	= 11
+      FINALE_GAUNTLET_HORDE_BONUSTIME	= 14
+      HUD_SPECIAL_COOLDOWN	= 4
+      HUD_SCORE_4	= 14
+      SPAWNDIR_SW	= 32
+      SPAWNDIR_E	= 4
+      TRACE_MASK_PLAYER_SOLID	= 33636363
+      HUD_RIGHT_TOP	= 4
+      ZOMBIE_SMOKER	= 1
+      SPAWN_BEHIND_SURVIVORS	= 1
+      FINALE_FINAL_BOSS	= 5
+      IN_RIGHT	= 1024
+      FINALE_HALFTIME_BOSS	= 2
+      SPAWNDIR_N	= 1
+      HUD_FLAG_TEAM_INFECTED	= 2048
+      DMG_BURN	= 8
+      SPAWNDIR_S	= 16
+      SPAWN_VERSUS_FINALE_DISTANCE	= 8
+      GetDirectorOptions	= (function : 0x071E2790)
+      DMG_STUMBLE	= 33554432
+      STAGE_NONE	= 9
+      STAGE_DELAY	= 2
+      SCRIPT_SHUTDOWN_MANUAL	= 0
+      DMG_BLAST	= 64
+      ZOMBIE_NORMAL	= 0
+      HUD_LEFT_BOT	= 1
+      FINALE_CUSTOM_PANIC	= 7
+      SPAWNDIR_NW	= 128
+      SPAWN_SURVIVORS	= 1
+      ZOMBIE_CHARGER	= 6
+      SPAWN_SPECIALS_ANYWHERE	= 4
+      ZSPAWN_WITCHBRIDE	= 11
+      SCRIPT_SHUTDOWN_EXIT_GAME	= 4
+      FINALE_HORDE_ATTACK_2	= 4
+      DMG_MELEE	= 2097152
+      TIMER_COUNTDOWN	= 2
+      INFECTED_FLAG_CANT_HEAR_SURVIVORS	= 16384
+      __vrefs	= 1
+      TRACE_MASK_ALL	= -1
+      FINALE_GAUNTLET_ESCAPE	= 17
+      TRACE_MASK_SHOT	= 1174421507
+      DMG_BLAST_SURFACE	= 134217728
+      ZSPAWN_MOB	= 10
+      SPAWN_FAR_AWAY_FROM_SURVIVORS	= 5
+      HUD_LEFT_TOP	= 0
+      SPAWN_POSITIONAL	= 3
+      IN_FORWARD	= 8
+      FINALE_CUSTOM_DELAY	= 10
+      UPGRADE_EXPLOSIVE_AMMO	= 1
+      FINALE_GAUNTLET_HORDE	= 13
+      TIMER_COUNTUP	= 1
+      SPAWNDIR_SE	= 8
+      IN_ATTACK2	= 2048
+      SPAWN_FINALE	= 0
+      HUD_FLAG_AS_TIME	= 16
+      TRACE_MASK_NPC_SOLID	= 33701899
+      TIMER_DISABLE	= 0
+      FINALE_GAUNTLET_1	= 0
+      SCRIPT_SHUTDOWN_TEAM_SWAP	= 2
+      ZSPAWN_MUDMEN	= 12
+      STAGE_SETUP	= 5
+      HUD_FLAG_ALIGN_CENTER	= 512
+      HUD_FAR_RIGHT	= 8
+      HUD_SCORE_TITLE	= 10
+      HUD_FLAG_NOTVISIBLE	= 16384
+      INFECTED_FLAG_CANT_SEE_SURVIVORS	= 8192
+      TIMER_SET	= 4
+      FINALE_GAUNTLET_BOSS	= 16
+      HUD_FLAG_BLINK	= 8
+      SPAWN_NEAR_POSITION	= 10
+      ZOMBIE_JOCKEY	= 5
+      __vname	= "DirectorScript"
+      SPAWN_NEAR_IT_VICTIM	= 2
+      SPAWN_ANYWHERE	= 0
+      HUD_SPECIAL_TIMER1	= 1
+      HUD_SPECIAL_TIMER2	= 2
+      HUD_SPECIAL_TIMER3	= 3
+      HUD_FLAG_COUNTDOWN_WARN	= 32
+      HUD_SPECIAL_TIMER0	= 0
+      STAGE_RESULTS	= 8
+      UPGRADE_LASER_SIGHT	= 2
+      UPGRADE_INCENDIARY_AMMO	= 0
+      IN_RELOAD	= 8192
+      IN_LEFT	= 512
+      IN_CANCEL	= 64
+      IN_USE	= 32
+      STAGE_CLEAROUT	= 4
+      BOT_CANT_FEEL	= 4
+      IN_BACK	= 16
+      SPAWN_NO_PREFERENCE	= -1
+      IN_DUCK	= 4
+      SPAWN_IN_FRONT_OF_SURVIVORS	= 7
+      HUD_MID_BOX	= 9
+      IN_ATTACK	= 1
+      HUD_SPECIAL_MODENAME	= 7
+      BOT_CANT_SEE	= 1
+      ALLOW_BASH_NONE	= 2
+      SPAWN_BATTLEFIELD	= 2
+      STAGE_PANIC	= 0
+      ZOMBIE_TANK	= 8
+      HUD_FLAG_ALIGN_LEFT	= 256
+      MapScript = 
+      {
+         ScriptMode_OnShutdown	= (function : 0x071E4240)
+         scripthelp_SpawnStartBox	= "Auto-create a startbox that will give you a callback when the first player exits it"
+         ScriptedMode_CallNextUpdate	= (function : 0x07FF11D0)
+         TrainingHintCB	= (function : 0x07E5FA80)
+         _SingleSimpleEntityCB	= (function : 0x06463DE0)
+         InstanceEntitySpawnKeys	= (function : 0x06F746C0)
+         scriptedNextUpdateCalls	= (array : 0x071D3200)
+         FindClassnameByPosition	= (function : 0x07FF2970)
+         Scoring_AddScore	= (function : 0x07E70FC0)
+         Scoring_MakeName	= (function : 0x07724840)
+         CreateSingleSimpleEntityFromTable	= (function : 0x0461BAA0)
+         scripthelp_ScriptMode_SystemCall	= "Makes the passed in call to g_MapScript and g_ModeScript, but it must have Zero args"
+         ScriptMode_OnGameplayStart	= (function : 0x071B7000)
+         ClearStartBox	= (function : 0x07726EE0)
+         MergeSessionOptionTables	= (function : 0x07725740)
+         scriptedModeLastSlowPoll	= 834
+         ReplaceString	= (function : 0x073D93B0)
+         scriptedModeSlowPollInterval	= 3
+         UniqueTargetnames = 
+         {
+         }
+         scripthelp_StageInfo_Execute	= "Execute a stage table, i.e. move parameters to DirectorOptions, do callbacks and so on"
+         StartboxFloating_Info = 
+         {
+            model	= "models/props_placeable/striped_barricade.mdl"
+            angles	= (vector : (0.000000, 0.000000, 0.000000))
+            solid	= "0"
+            origin	= (vector : (0.000000, 0.000000, 0.000000))
+            classname	= "prop_dynamic"
+         }
+         DeepPrintTable	= (function : 0x045EEA38)
+         Ticker_AddToHud	= (function : 0x07E71AB0)
+         InstanceTemplateGroup	= (function : 0x069CF4B0)
+         SpawnSingleAt	= (function : 0x07FF2A30)
+         ScriptedPrecache	= (function : 0x06E6F420)
+         ScriptedMode_AddUpdate	= (function : 0x0643FD20)
+         Startbox_Precache	= (function : 0x07E5C630)
+         scriptedModeUpdateFuncs	= (array : 0x07624E60)
+         RescueTimer_Init	= (function : 0x045DC578)
+         ScriptedMode_RemoveSlowPoll	= (function : 0x073D8DE0)
+         Scoring_MakeFileName	= (function : 0x07726F70)
+         Clearout_Tick	= (function : 0x06EDB0C0)
+         GetUniqueTargetnameTable	= (function : 0x07FF2520)
+         SpawnMeleeWeapon	= (function : 0x07FF1980)
+         GetReplaceParms	= (function : 0x07659B00)
+         CreateHintOn	= (function : 0x046B5E30)
+         pos_strs	= (array : 0x076682F8)
+         CheckOrSetMapCallback	= (function : 0x07204630)
+         scripthelp_TeleportPlayersToStartPoints	= "Teleport players to start entities named by the argument - must have 4 spawnpoints"
+         __vrefs	= 1
+         BaseScriptedDOTable = 
+         {
+            SpawnSetRule	= 1
+            PreferredMobDirection	= -1
+            ScriptedStageType	= 9
+            cm_AggressiveSpecials	= 1
+            ScriptedStageValue	= 1000
+            SpawnDirectionMask	= 0
+            SpawnDirectionCount	= 0
+         }
+         g_DebugAllSpawnsGlow	= false
+         StageInfo_Execute	= (function : 0x06562290)
+         RescueTimerActive	= false
+         RescueTimerFinished	= false
+         ScriptedDamageInfo = 
+         {
+            DamageDone	= 0
+            DamageType	= -1
+            Attacker	= (null : 0x00000000)
+            Weapon	= (null : 0x00000000)
+            Victim	= (null : 0x00000000)
+            Location	= (vector : (0.000000, 0.000000, 0.000000))
+         }
+         StringToVector	= (function : 0x06463630)
+         scriptedModeSlowPollFuncs	= (array : 0x0717EEB8)
+         Ticker_Hide	= (function : 0x06ED87E0)
+         StoreStartboxCB	= (function : 0x07E5D020)
+         EndTrainingHints	= (function : 0x07E5D8F0)
+         EntSpawn_DefaultHelper	= (function : 0x07E5CA50)
+         FireEvent	= (function : 0x07724E40)
+         TickerLastTime	= 0
+         LocalScript = 
+         {
+            __vname	= "LocalScript"
+            __vrefs	= 1
+         }
+         Scoring_SetDefaultScores	= (function : 0x07E5E0A0)
+         _entHelper	= (function : 0x0719C510)
+         SanitizeMap	= (function : 0x073DB0F0)
+         SanitizeEntity	= (function : 0x071E2A30)
+         Ticker_SetBlinkTime	= (function : 0x07724F90)
+         CreateTickerOnlyHUD	= (function : 0x0460ED48)
+         SpawnStartBox	= (function : 0x06527650)
+         CreateTrainingHints	= (function : 0x06EDA850)
+         ScriptMode_Init	= (function : 0x071B4750)
+         MapTargetnameToSpawnTables	= (function : 0x071E00F0)
+         SpawnSingleOn	= (function : 0x06462430)
+         smDbgLoud	= (function : 0x06EDB7B0)
+         NumBetween	= (function : 0x06460660)
+         MakeSpawnLocNameList	= (function : 0x071E70C0)
+         AddDefaultsToTable	= (function : 0x071B7A80)
+         ScriptMode_OnActivate	= (function : 0x07E5CAB0)
+         EntSpawn_SpawnToTargetHelper	= (function : 0x06463780)
+         ScriptedMode_RemoveUpdate	= (function : 0x071E3E10)
+         stageDebug	= false
+         Ticker_SlowPoll	= (function : 0x07FF3C00)
+         EntityGroupPrecache	= (function : 0x069CE310)
+         TickerBlinkTime	= 5
+         GetPosStr	= (function : 0x06ED9A70)
+         TrainingHintTargetCB	= (function : 0x0770F3F0)
+         InjectTable	= (function : 0x071E6B20)
+         DuplicateTable	= (function : 0x07E5EDF0)
+         __vname	= "MapScript"
+         defaultClearout = 
+         {
+            specials	= 1
+            plateauspecials	= 1
+            plateaucommons	= 6
+            commons	= 2
+            plateautime	= 5
+            witches	= 0
+            tanks	= 0
+         }
+         MapSpawns	= (array : 0x071F8E38)
+         CheckForSpecialStage	= (function : 0x072052F0)
+         CreateParticleSystemAt	= (function : 0x0655D440)
+         scripthelp_CheckForSpecialStage	= "Helper for picking a random special stage based on stage_info table"
+         StageInfo_SanityCheckParams	= (function : 0x0765B390)
+         RescueTimer_Start	= (function : 0x04693410)
+         RadioSpawnCB	= (function : 0x07E5E3A0)
+         RescueTimer_Set	= (function : 0x071E5DA0)
+         ParseStageParams	= (function : 0x07FF1830)
+         ReplacementParms = 
+         {
+         }
+         GetReplacementKeys	= (function : 0x07E5F540)
+         SpecialNames	= (array : 0x08116940)
+         stageData_Template = 
+         {
+            trigger	= (null : 0x00000000)
+            name	= "stage_data_template"
+            params = 
+            {
+            }
+            callback	= (null : 0x00000000)
+         }
+         stageDebugPrintl	= (function : 0x0770E100)
+         ProcessTemplates	= (function : 0x07FF0030)
+         StartboxSpeedbump_Info = 
+         {
+            model	= "models/props_placeable/speedBump.mdl"
+            angles	= (vector : (0.000000, 0.000000, 0.000000))
+            origin	= (vector : (0.000000, 0.000000, 0.000000))
+            classname	= "prop_dynamic"
+         }
+         Scoring_SaveTable	= (function : 0x06ED9DD0)
+         RunFunctionOnList	= (function : 0x073D87B0)
+         SpawnMultiple	= (function : 0x06EDAB20)
+         RescueHUDSlot	= (null : 0x00000000)
+         Scoring_AddScoreAndBuildStrings	= (function : 0x0655C8C0)
+         EntSpawn_DoTheSpawns	= (function : 0x071E2280)
+         Update	= (function : 0x07FF1620)
+         ScriptMode_AddCriteria	= (function : 0x0770C540)
+         UniqueTag	= ""
+         RescueTimer_Stop	= (function : 0x069CD500)
+         EntSpawn_GetFixedUpGroupName	= (function : 0x06460450)
+         Scoring_LoadTable	= (function : 0x07FF0C30)
+         InstanceTemplateSpawnTables	= (function : 0x0770F120)
+         AddDefaultsToArray	= (function : 0x0770F7B0)
+         g_DefaultScores	= (array : 0x07C60230)
+         SpawnEntityGroup	= (function : 0x07E5F8D0)
+         BuildInfoItemList	= (function : 0x07E73B48)
+         smDbgPrint	= (function : 0x071E3F90)
+         GetEntityGroup	= (function : 0x07724B10)
+         RegisterEntityGroup	= (function : 0x07724BD0)
+         EntityGroups = 
+         {
+         }
+         scripthelp_Ticker_AddToHud	= "adds ticker data to a passed in HUDTable"
+         GenerateUniqueTargetnames	= (function : 0x07FF0DB0)
+         scripthelp_DuplicateTable	= "This returns a deep copy of the passed in table"
+         GetUniqueString	= (function : 0x07FF29D0)
+         BuildShell	= (function : 0x07207240)
+         g_UniqueID	= 0
+         CacheSpawnTables	= (function : 0x06EDA8E0)
+         scripthelp_Ticker_NewStr	= "sets the current Ticker string, w/an optional timeout value"
+         ScriptMode_SystemCall	= (function : 0x07FF15F0)
+         CreateSimpleInstructorHints	= (function : 0x071E6A00)
+         scripthelp_DeepPrintTable	= "Print out a table (and subtables) to the console"
+         RescueTimer_Get	= (function : 0x071E7BD0)
+         StoreStartboxCenterCB	= (function : 0x06EDA820)
+         EntSpawn_DoIncludes	= (function : 0x07E5F570)
+         ClearoutStart	= (function : 0x07E5FC00)
+         MapState = 
+         {
+         }
+         scripthelp_Ent	= "Takes an entity index or name, returns the entity"
+         UpdateHUDTable	= (function : 0x04684D20)
+         ChallengeScript = 
+         {
+            DirectorOptions = 
+            {
+               SpawnSetRule	= 1
+               PreferredMobDirection	= -1
+               ScriptedStageType	= 9
+               SpawnDirectionCount	= 0
+               ScriptedStageValue	= 1000
+               SpawnDirectionMask	= 0
+               cm_AggressiveSpecials	= 1
+            }
+            MutationState = 
+            {
+               ModeName	= "versus"
+               MapName	= "c10m1_caves"
+               StartActive	= true
+            }
+            MyFnName	= (function : 0x071B6C10)
+            __vname	= "ChallengeScript"
+            __vrefs	= 1
+            TickerHUD = 
+            {
+               Fields = 
+               {
+                  server_logo = 
+                  {
+                     datafunc	= (function : 0x076592F0)
+                     dataval	= "lkjdaflkjasdlk"
+                     flags	= 280
+                     slot	= 6
+                  }
+               }
+            }
+         }
+         TeleportPlayersToStartPoints	= (function : 0x072047E0)
+         ReplaceConnectionString	= (function : 0x07FF02A0)
+         MergeSessionStateTables	= (function : 0x06462F40)
+         scripthelp_ScriptedMode_CallNextUpdate	= "Pass a lambda to this, it will get called once as part of next Update, for doing something 'soon but not now'"
+         RescueTimerTimerID	= 3
+         MergeSessionSpawnTables	= (function : 0x073D84B0)
+         smDebug	= 0
+         RescueTimer_Tick	= (function : 0x069CCB70)
+         Ticker_NewStr	= (function : 0x07E7CD58)
+         scripthelp_TimeToDisplayString	= "Convert a # of seconds to a displayable time string form m:ss"
+         TimeToDisplayString	= (function : 0x07E5FF90)
+         InstancedEntityGroup = 
+         {
+         }
+         TickerTimeout	= 10
+         RescueTimerBlinkIfOff	= true
+         RescueHUDTitle	= (null : 0x00000000)
+         ClearoutNotifyPanicStart	= (function : 0x071B6EE0)
+         EntityInsideRegion	= (function : 0x06460CC0)
+         scripthelp_CheckOrSetMapCallback	= "Pass a callback and default @ for it, if it doesnt exist in current table, place it there"
+         Ticker_SetTimeout	= (function : 0x07206610)
+         SpawnSingle	= (function : 0x069D7570)
+         ScriptedMode_AddSlowPoll	= (function : 0x07659B90)
+         StartboxCenter_Info = 
+         {
+            vscripts	= "startbox"
+            movetype	= "0"
+            angles	= (vector : (0.000000, 0.000000, 0.000000))
+            spawnflags	= "8"
+            thinkfunction	= "Think"
+            classname	= "info_item_position"
+         }
+         InstanceEntityGroup	= (function : 0x0466A310)
+         TickerHUDSlot	= (null : 0x00000000)
+         g_MutationScores	= (array : 0x07668D70)
+         SpawnGetList	= (function : 0x070B78D0)
+         Ticker_SetBlink	= (function : 0x071E7DE0)
+         CreateHintTarget	= (function : 0x0765BE10)
+         MakeSpawnLocClassList	= (function : 0x07E5F900)
+         RunMemberOnList	= (function : 0x06ED86F0)
+         TickerShowing	= false
+      }
+      BOT_CMD_RESET	= 3
+      SCRIPT_SHUTDOWN_ROUND_RESTART	= 1
+      BOT_QUERY_NOTARGET	= 1
+      FINALE_GAUNTLET_START	= 12
+      BOT_CMD_ATTACK	= 0
+      HUD_FLAG_ALLOWNEGTIMER	= 128
+      ALLOW_BASH_ALL	= 0
+      HUD_MID_BOT	= 3
+      IN_JUMP	= 2
+      SCRIPTED_SPAWN_SURVIVORS	= 1
+      FINALE_CUSTOM_SCRIPTED	= 9
+      TRACE_MASK_VISIBLE_AND_NPCS	= 33579137
+      INFECTED_FLAG_CANT_FEEL_SURVIVORS	= 32768
+      SPAWN_SPECIALS_IN_FRONT_OF_SURVIVORS	= 3
+      BOT_CMD_RETREAT	= 2
+      FINALE_HORDE_ESCAPE	= 6
+      SPAWN_ABOVE_SURVIVORS	= 6
+      SCRIPTED_SPAWN_POSITIONAL	= 3
+      SPAWN_LARGE_VOLUME	= 9
+      FINALE_GAUNTLET_BOSS_INCOMING	= 15
+      HUD_RIGHT_BOT	= 5
+      STAGE_ESCAPE	= 7
+      DirectorOptions = 
+      {
+         OnChangeFinaleMusic	= ""
+         finaleStageList	= (array : 0x0776D8B0)
+         OnChangeFinaleStage	= (function : 0x0719F210)
+         MaxSpecials	= 2
+      }
+      HUD_FLAG_NOBG	= 64
+      ZOMBIE_WITCH	= 7
+      ZOMBIE_HUNTER	= 3
+      SCRIPT_SHUTDOWN_LEVEL_TRANSITION	= 3
+      DMG_HEADSHOT	= 1073741824
+      BOT_CANT_HEAR	= 2
+      HUD_SPECIAL_MAPNAME	= 6
+      SCRIPTED_SPAWN_FINALE	= 0
+      FINALE_CUSTOM_CLEAROUT	= 11
+      HUD_SCORE_2	= 12
+      STAGE_TANK	= 1
+      SCRIPTED_SPAWN_BATTLEFIELD	= 2
+      HUD_FLAG_POSTSTR	= 2
+      HUD_FLAG_BEEP	= 4
+      TRACE_MASK_VISION	= 33579073
+      BOT_CMD_MOVE	= 1
+      ZOMBIE_BOOMER	= 2
+      HUD_FAR_LEFT	= 7
+      HUD_FLAG_TEAM_MASK	= 3072
+      HUD_FLAG_TEAM_SURVIVORS	= 1024
+      HUD_TICKER	= 6
+      FINALE_HORDE_ATTACK_1	= 1
+      TIMER_STOP	= 3
+      HUD_FLAG_PRESTR	= 1
+      FINALE_GAUNTLET_2	= 3
+      DMG_BULLET	= 2
+      HUD_FLAG_ALIGN_RIGHT	= 768
+      ZOMBIE_SPITTER	= 4
+      ALLOW_BASH_PUSHONLY	= 1
+      SPAWNDIR_W	= 64
+   }
+   LateBinder	= (class : 0x074E0960)
+   Time	= (native function : 0x080B9DD0)
+   DebugDrawBoxDirection	= (native function : 0x069D6400)
+   ScriptDebugIterateKeys	= (function : 0x045FE220)
+   GetPlayerFromCharacter	= (native function : 0x069D7210)
+   CDirector	= (class : 0x047DCF00)
+   _PublishedHelp = 
+   {
+      scripthelp_DuplicateTable	= true
+      scripthelp_Ticker_AddToHud	= true
+      scripthelp_CheckForSpecialStage	= true
+      scripthelp_Ticker_NewStr	= true
+      scripthelp_StageInfo_Execute	= true
+      scripthelp_DeepPrintTable	= true
+      scripthelp_TimeToDisplayString	= true
+      scripthelp_TeleportPlayersToStartPoints	= true
+      scripthelp_CheckOrSetMapCallback	= true
+      scripthelp_ScriptMode_SystemCall	= true
+      scripthelp_SpawnStartBox	= true
+      scripthelp_ScriptedMode_CallNextUpdate	= true
+   }
+   ScriptDebugDrawWatchesEnabled	= true
+   ScriptDebugInDebugDraw	= false
+   GetPhysAngularVelocity	= (native function : 0x066088B8)
+   GetFriction	= (native function : 0x069D56C8)
+   FireScriptEvent	= (function : 0x071E7090)
+   setroottable	= (native function : 0x077DBFC0)
+   BeginScriptDebug	= (function : 0x07659F80)
+   HUDManageTimers	= (native function : 0x069D62E0)
+   CSimpleCallChainer	= (class : 0x074E3CF0)
+   SessionOptions = 
+   {
+      SpawnSetRule	= 1
+      PreferredMobDirection	= -1
+      ScriptedStageType	= 9
+      SpawnDirectionCount	= 0
+      ScriptedStageValue	= 1000
+      SpawnDirectionMask	= 0
+      cm_AggressiveSpecials	= 1
+   }
+   ScriptDebugRemoveWatchPattern	= (function : 0x07659140)
+   log10	= (native function : 0x077DA040)
+   SessionSpawns	= (array : 0x071F8E38)
+   RAND_MAX	= 32767
+   pow	= (native function : 0x077DA4C0)
+   SpawnEntityGroupFromTable	= (native function : 0x066093F8)
+   rr_AddDecisionRule	= (native function : 0x069D70A8)
+   ScriptDebugTraceAll	= (function : 0x0460F950)
+   developer	= (native function : 0x077DAEC0)
+   _SingleSimpleEntityTempStore	= (null : 0x00000000)
+   compilestring	= (native function : 0x077DA400)
+   SaveTable	= (native function : 0x069D5EF0)
+   setconsttable	= (native function : 0x077D9280)
+   tan	= (native function : 0x077DB0C0)
+   error	= (native function : 0x077DAE00)
+   GetMaxFlowDistance	= (native function : 0x069D5680)
+   ScriptDebugIterateKeysRecursive	= (function : 0x07FF0150)
+   g_MapScript = 
+   {
+      ScriptMode_OnShutdown	= (function : 0x071E4240)
+      scripthelp_SpawnStartBox	= "Auto-create a startbox that will give you a callback when the first player exits it"
+      ScriptedMode_CallNextUpdate	= (function : 0x07FF11D0)
+      TrainingHintCB	= (function : 0x07E5FA80)
+      _SingleSimpleEntityCB	= (function : 0x06463DE0)
+      InstanceEntitySpawnKeys	= (function : 0x06F746C0)
+      scriptedNextUpdateCalls	= (array : 0x071D3200)
+      FindClassnameByPosition	= (function : 0x07FF2970)
+      Scoring_AddScore	= (function : 0x07E70FC0)
+      Scoring_MakeName	= (function : 0x07724840)
+      CreateSingleSimpleEntityFromTable	= (function : 0x0461BAA0)
+      scripthelp_ScriptMode_SystemCall	= "Makes the passed in call to g_MapScript and g_ModeScript, but it must have Zero args"
+      ScriptMode_OnGameplayStart	= (function : 0x071B7000)
+      ClearStartBox	= (function : 0x07726EE0)
+      MergeSessionOptionTables	= (function : 0x07725740)
+      scriptedModeLastSlowPoll	= 834
+      ReplaceString	= (function : 0x073D93B0)
+      scriptedModeSlowPollInterval	= 3
+      UniqueTargetnames = 
+      {
+      }
+      scripthelp_StageInfo_Execute	= "Execute a stage table, i.e. move parameters to DirectorOptions, do callbacks and so on"
+      StartboxFloating_Info = 
+      {
+         model	= "models/props_placeable/striped_barricade.mdl"
+         angles	= (vector : (0.000000, 0.000000, 0.000000))
+         solid	= "0"
+         origin	= (vector : (0.000000, 0.000000, 0.000000))
+         classname	= "prop_dynamic"
+      }
+      DeepPrintTable	= (function : 0x045EEA38)
+      Ticker_AddToHud	= (function : 0x07E71AB0)
+      InstanceTemplateGroup	= (function : 0x069CF4B0)
+      SpawnSingleAt	= (function : 0x07FF2A30)
+      ScriptedPrecache	= (function : 0x06E6F420)
+      ScriptedMode_AddUpdate	= (function : 0x0643FD20)
+      Startbox_Precache	= (function : 0x07E5C630)
+      scriptedModeUpdateFuncs	= (array : 0x07624E60)
+      RescueTimer_Init	= (function : 0x045DC578)
+      ScriptedMode_RemoveSlowPoll	= (function : 0x073D8DE0)
+      Scoring_MakeFileName	= (function : 0x07726F70)
+      Clearout_Tick	= (function : 0x06EDB0C0)
+      GetUniqueTargetnameTable	= (function : 0x07FF2520)
+      SpawnMeleeWeapon	= (function : 0x07FF1980)
+      GetReplaceParms	= (function : 0x07659B00)
+      CreateHintOn	= (function : 0x046B5E30)
+      pos_strs	= (array : 0x076682F8)
+      CheckOrSetMapCallback	= (function : 0x07204630)
+      scripthelp_TeleportPlayersToStartPoints	= "Teleport players to start entities named by the argument - must have 4 spawnpoints"
+      __vrefs	= 1
+      BaseScriptedDOTable = 
+      {
+         SpawnSetRule	= 1
+         PreferredMobDirection	= -1
+         ScriptedStageType	= 9
+         cm_AggressiveSpecials	= 1
+         ScriptedStageValue	= 1000
+         SpawnDirectionMask	= 0
+         SpawnDirectionCount	= 0
+      }
+      g_DebugAllSpawnsGlow	= false
+      StageInfo_Execute	= (function : 0x06562290)
+      RescueTimerActive	= false
+      RescueTimerFinished	= false
+      ScriptedDamageInfo = 
+      {
+         DamageDone	= 0
+         DamageType	= -1
+         Attacker	= (null : 0x00000000)
+         Weapon	= (null : 0x00000000)
+         Victim	= (null : 0x00000000)
+         Location	= (vector : (0.000000, 0.000000, 0.000000))
+      }
+      StringToVector	= (function : 0x06463630)
+      scriptedModeSlowPollFuncs	= (array : 0x0717EEB8)
+      Ticker_Hide	= (function : 0x06ED87E0)
+      StoreStartboxCB	= (function : 0x07E5D020)
+      EndTrainingHints	= (function : 0x07E5D8F0)
+      EntSpawn_DefaultHelper	= (function : 0x07E5CA50)
+      FireEvent	= (function : 0x07724E40)
+      TickerLastTime	= 0
+      LocalScript = 
+      {
+         __vname	= "LocalScript"
+         __vrefs	= 1
+      }
+      Scoring_SetDefaultScores	= (function : 0x07E5E0A0)
+      _entHelper	= (function : 0x0719C510)
+      SanitizeMap	= (function : 0x073DB0F0)
+      SanitizeEntity	= (function : 0x071E2A30)
+      Ticker_SetBlinkTime	= (function : 0x07724F90)
+      CreateTickerOnlyHUD	= (function : 0x0460ED48)
+      SpawnStartBox	= (function : 0x06527650)
+      CreateTrainingHints	= (function : 0x06EDA850)
+      ScriptMode_Init	= (function : 0x071B4750)
+      MapTargetnameToSpawnTables	= (function : 0x071E00F0)
+      SpawnSingleOn	= (function : 0x06462430)
+      smDbgLoud	= (function : 0x06EDB7B0)
+      NumBetween	= (function : 0x06460660)
+      MakeSpawnLocNameList	= (function : 0x071E70C0)
+      AddDefaultsToTable	= (function : 0x071B7A80)
+      ScriptMode_OnActivate	= (function : 0x07E5CAB0)
+      EntSpawn_SpawnToTargetHelper	= (function : 0x06463780)
+      ScriptedMode_RemoveUpdate	= (function : 0x071E3E10)
+      stageDebug	= false
+      Ticker_SlowPoll	= (function : 0x07FF3C00)
+      EntityGroupPrecache	= (function : 0x069CE310)
+      TickerBlinkTime	= 5
+      GetPosStr	= (function : 0x06ED9A70)
+      TrainingHintTargetCB	= (function : 0x0770F3F0)
+      InjectTable	= (function : 0x071E6B20)
+      DuplicateTable	= (function : 0x07E5EDF0)
+      __vname	= "MapScript"
+      defaultClearout = 
+      {
+         specials	= 1
+         plateauspecials	= 1
+         plateaucommons	= 6
+         commons	= 2
+         plateautime	= 5
+         witches	= 0
+         tanks	= 0
+      }
+      MapSpawns	= (array : 0x071F8E38)
+      CheckForSpecialStage	= (function : 0x072052F0)
+      CreateParticleSystemAt	= (function : 0x0655D440)
+      scripthelp_CheckForSpecialStage	= "Helper for picking a random special stage based on stage_info table"
+      StageInfo_SanityCheckParams	= (function : 0x0765B390)
+      RescueTimer_Start	= (function : 0x04693410)
+      RadioSpawnCB	= (function : 0x07E5E3A0)
+      RescueTimer_Set	= (function : 0x071E5DA0)
+      ParseStageParams	= (function : 0x07FF1830)
+      ReplacementParms = 
+      {
+      }
+      GetReplacementKeys	= (function : 0x07E5F540)
+      SpecialNames	= (array : 0x08116940)
+      stageData_Template = 
+      {
+         trigger	= (null : 0x00000000)
+         name	= "stage_data_template"
+         params = 
+         {
+         }
+         callback	= (null : 0x00000000)
+      }
+      stageDebugPrintl	= (function : 0x0770E100)
+      ProcessTemplates	= (function : 0x07FF0030)
+      StartboxSpeedbump_Info = 
+      {
+         model	= "models/props_placeable/speedBump.mdl"
+         angles	= (vector : (0.000000, 0.000000, 0.000000))
+         origin	= (vector : (0.000000, 0.000000, 0.000000))
+         classname	= "prop_dynamic"
+      }
+      Scoring_SaveTable	= (function : 0x06ED9DD0)
+      RunFunctionOnList	= (function : 0x073D87B0)
+      SpawnMultiple	= (function : 0x06EDAB20)
+      RescueHUDSlot	= (null : 0x00000000)
+      Scoring_AddScoreAndBuildStrings	= (function : 0x0655C8C0)
+      EntSpawn_DoTheSpawns	= (function : 0x071E2280)
+      Update	= (function : 0x07FF1620)
+      ScriptMode_AddCriteria	= (function : 0x0770C540)
+      UniqueTag	= ""
+      RescueTimer_Stop	= (function : 0x069CD500)
+      EntSpawn_GetFixedUpGroupName	= (function : 0x06460450)
+      Scoring_LoadTable	= (function : 0x07FF0C30)
+      InstanceTemplateSpawnTables	= (function : 0x0770F120)
+      AddDefaultsToArray	= (function : 0x0770F7B0)
+      g_DefaultScores	= (array : 0x07C60230)
+      SpawnEntityGroup	= (function : 0x07E5F8D0)
+      BuildInfoItemList	= (function : 0x07E73B48)
+      smDbgPrint	= (function : 0x071E3F90)
+      GetEntityGroup	= (function : 0x07724B10)
+      RegisterEntityGroup	= (function : 0x07724BD0)
+      EntityGroups = 
+      {
+      }
+      scripthelp_Ticker_AddToHud	= "adds ticker data to a passed in HUDTable"
+      GenerateUniqueTargetnames	= (function : 0x07FF0DB0)
+      scripthelp_DuplicateTable	= "This returns a deep copy of the passed in table"
+      GetUniqueString	= (function : 0x07FF29D0)
+      BuildShell	= (function : 0x07207240)
+      g_UniqueID	= 0
+      CacheSpawnTables	= (function : 0x06EDA8E0)
+      scripthelp_Ticker_NewStr	= "sets the current Ticker string, w/an optional timeout value"
+      ScriptMode_SystemCall	= (function : 0x07FF15F0)
+      CreateSimpleInstructorHints	= (function : 0x071E6A00)
+      scripthelp_DeepPrintTable	= "Print out a table (and subtables) to the console"
+      RescueTimer_Get	= (function : 0x071E7BD0)
+      StoreStartboxCenterCB	= (function : 0x06EDA820)
+      EntSpawn_DoIncludes	= (function : 0x07E5F570)
+      ClearoutStart	= (function : 0x07E5FC00)
+      MapState = 
+      {
+      }
+      scripthelp_Ent	= "Takes an entity index or name, returns the entity"
+      UpdateHUDTable	= (function : 0x04684D20)
+      ChallengeScript = 
+      {
+         DirectorOptions = 
+         {
+            SpawnSetRule	= 1
+            PreferredMobDirection	= -1
+            ScriptedStageType	= 9
+            SpawnDirectionCount	= 0
+            ScriptedStageValue	= 1000
+            SpawnDirectionMask	= 0
+            cm_AggressiveSpecials	= 1
+         }
+         MutationState = 
+         {
+            ModeName	= "versus"
+            MapName	= "c10m1_caves"
+            StartActive	= true
+         }
+         MyFnName	= (function : 0x071B6C10)
+         __vname	= "ChallengeScript"
+         __vrefs	= 1
+         TickerHUD = 
+         {
+            Fields = 
+            {
+               server_logo = 
+               {
+                  datafunc	= (function : 0x076592F0)
+                  dataval	= "lkjdaflkjasdlk"
+                  flags	= 280
+                  slot	= 6
+               }
+            }
+         }
+      }
+      TeleportPlayersToStartPoints	= (function : 0x072047E0)
+      ReplaceConnectionString	= (function : 0x07FF02A0)
+      MergeSessionStateTables	= (function : 0x06462F40)
+      scripthelp_ScriptedMode_CallNextUpdate	= "Pass a lambda to this, it will get called once as part of next Update, for doing something 'soon but not now'"
+      RescueTimerTimerID	= 3
+      MergeSessionSpawnTables	= (function : 0x073D84B0)
+      smDebug	= 0
+      RescueTimer_Tick	= (function : 0x069CCB70)
+      Ticker_NewStr	= (function : 0x07E7CD58)
+      scripthelp_TimeToDisplayString	= "Convert a # of seconds to a displayable time string form m:ss"
+      TimeToDisplayString	= (function : 0x07E5FF90)
+      InstancedEntityGroup = 
+      {
+      }
+      TickerTimeout	= 10
+      RescueTimerBlinkIfOff	= true
+      RescueHUDTitle	= (null : 0x00000000)
+      ClearoutNotifyPanicStart	= (function : 0x071B6EE0)
+      EntityInsideRegion	= (function : 0x06460CC0)
+      scripthelp_CheckOrSetMapCallback	= "Pass a callback and default @ for it, if it doesnt exist in current table, place it there"
+      Ticker_SetTimeout	= (function : 0x07206610)
+      SpawnSingle	= (function : 0x069D7570)
+      ScriptedMode_AddSlowPoll	= (function : 0x07659B90)
+      StartboxCenter_Info = 
+      {
+         vscripts	= "startbox"
+         movetype	= "0"
+         angles	= (vector : (0.000000, 0.000000, 0.000000))
+         spawnflags	= "8"
+         thinkfunction	= "Think"
+         classname	= "info_item_position"
+      }
+      InstanceEntityGroup	= (function : 0x0466A310)
+      TickerHUDSlot	= (null : 0x00000000)
+      g_MutationScores	= (array : 0x07668D70)
+      SpawnGetList	= (function : 0x070B78D0)
+      Ticker_SetBlink	= (function : 0x071E7DE0)
+      CreateHintTarget	= (function : 0x0765BE10)
+      MakeSpawnLocClassList	= (function : 0x07E5F900)
+      RunMemberOnList	= (function : 0x06ED86F0)
+      TickerShowing	= false
+   }
+   _version_	= "Squirrel 3.0.4 stable"
+   DebugDrawLine_vCol	= (native function : 0x069D5E60)
+   ScriptDebugTextTrace	= (function : 0x045FD998)
+   sin	= (native function : 0x077DB280)
+   rr_QueryBestResponse	= (native function : 0x069D63B8)
+   Vector2D	= (class : 0x047DF480)
+   PrecacheEntityFromTable	= (native function : 0x065915F0)
+   ConnectOutputs	= (function : 0x069CC720)
+   FileToString	= (native function : 0x06F74168)
+   RandomInt	= (native function : 0x080BA400)
+   callee	= (native function : 0x077DA640)
+   DebugDrawText	= (native function : 0x06608A20)
+   ScriptDebugAddWatchPattern	= (function : 0x07FF22B0)
+   Convars	= (instance : 0x046AF330)
+   CNetPropManager	= (class : 0x047DF660)
+   Vector	= (class : 0x074E0870)
+   print	= (function : 0x071E5950)
+   _floatsize_	= 4
+   name	= "2"
+   getstackinfos	= (native function : 0x077D8340)
+   __VScriptServerDebugHook	= (function : 0x069CCCC0)
+   exp	= (native function : 0x077DAF80)
+   HUDReadTimer	= (native function : 0x069D6298)
+   StringToFile	= (native function : 0x06F76E20)
+   SessionState = 
+   {
+      ModeName	= "versus"
+      MapName	= "c10m1_caves"
+      StartActive	= true
+   }
+   ScriptDebugDrawWatches	= (function : 0x071B4EA0)
+   __OutputsPattern	= (instance : 0x065607E0)
+   seterrorhandler	= (native function : 0x077DA580)
+   RandomFloat	= (native function : 0x080B9EA8)
+   HUDPlace	= (native function : 0x069D64D8)
+   VSquirrel_OnReleaseScope	= (function : 0x0643FFC0)
+   assert	= (native function : 0x077DB080)
+   FindCircularReferences	= (function : 0x07F17990)
+   DoUniqueString	= (native function : 0x080B9D40)
+   EmitSoundOnClient	= (native function : 0x06F76D48)
+   asin	= (native function : 0x077D8B40)
+   FireGameEvent	= (native function : 0x06609440)
+   GetInvTable	= (native function : 0x069D5D40)
+   Quaternion	= (class : 0x071A9680)
+   SendToConsole	= (native function : 0x080B9E60)
+   ScriptDebugRemoveWatches	= (function : 0x073D85A0)
+   dummy	= (native function : 0x077D88C0)
+   AddToScriptHelp	= (function : 0x07205DA0)
+   GetFrameCount	= (native function : 0x080B9998)
+   NameFunc	= (function : 0x076592F0)
+   newthread	= (native function : 0x077DBD40)
+   ScriptDebugDraw	= (function : 0x0770D470)
+   RegisterFunctionDocumentation	= (function : 0x0770F000)
+   IncludeScript	= (function : 0x0460FC98)
+   GameEventCallbacks = 
+   {
+   }
+   ScriptDebugAddTrace	= (function : 0x07FF01B0)
+   GetCharacterDisplayName	= (native function : 0x069D6490)
+   acos	= (native function : 0x077DBE00)
+   GetCurrentFlowPercentForPlayer	= (native function : 0x069D7138)
+   ScriptDebugRemoveTrace	= (function : 0x07204B40)
+   ReapplyInfectedFlags	= (native function : 0x080B9950)
+   ScriptDebugTextDraw	= (function : 0x069CFCF0)
+   CEntities	= (class : 0x074E3ED0)
+   PrintHelp	= (function : 0x077DB580)
+   RetrieveNativeSignature	= (function : 0x06463210)
+   SendToServerConsole	= (native function : 0x080B9D88)
+   RegisterScriptGameEventListener	= (native function : 0x080B9CB0)
+   __CollectEventCallbacks	= (function : 0x0770F7E0)
+   GetCurrentFlowDistanceForPlayer	= (native function : 0x069D7600)
+   realPrint	= (native function : 0x077D9840)
+   ScriptDebugText	= (array : 0x07BA1E00)
+   Assert	= (function : 0x046F8F50)
+   ScriptDebugAddWatch	= (function : 0x0770C3F0)
+   StartAssault	= (native function : 0x069D7378)
+   g_rr = 
+   {
+      rr_ProcessRules	= (function : 0x0770EB20)
+      rrDebugPrint	= (function : 0x064613E0)
+      RRule	= (class : 0x071AA0D0)
+      DemoWritingContextToCharacter	= (function : 0x06ED85A0)
+      Criterion	= (class : 0x047DCA50)
+      rr_ProcessResponse	= (function : 0x0770F4E0)
+      g_decisionrules	= (array : 0x0717D608)
+      CriterionIsc6m3_port	= (array : 0x0776F0E8)
+      SubjectAward	= (function : 0x07E5E5B0)
+      __vrefs	= 1
+      ResponseSingle	= (class : 0x071A94A0)
+      PrintTable	= (function : 0x071E3930)
+      CriterionIsNotCoughing	= (array : 0x07132A80)
+      DemoScriptFollowupFunction	= (function : 0x077250B0)
+      rr_ProcessCriterion	= (function : 0x06462A00)
+      SetAwardSpeech	= (function : 0x07E5C120)
+      RGroupParams	= (class : 0x071A8A50)
+      CriterionFunc	= (class : 0x071A93B0)
+      rr_CharacterSpeak	= (function : 0x07FF1350)
+      __vname	= "g_rr"
+      rrPrintTable	= (function : 0x045DDCA8)
+      RThen	= (class : 0x071A9FE0)
+      CriterionIsAwardProtector	= (array : 0x071D1630)
+   }
+   sqrt	= (native function : 0x077D8E00)
+   DebugDrawBox	= (native function : 0x069D7498)
+   DebugDrawLine	= (native function : 0x069D7450)
+   Document	= (function : 0x077D94C0)
+   DebugDrawCircle	= (native function : 0x069D7408)
+   _intsize_	= 4
+   Say	= (native function : 0x06608900)
+   collectgarbage	= (native function : 0x077DAA00)
+   UniqueString	= (function : 0x046AC1C0)
+   ScriptDebugAddWatches	= (function : 0x0719CB70)
+   ScriptDebugRemoveTextFilter	= (function : 0x077251D0)
+   enabledebuginfo	= (native function : 0x077DA440)
+   setdebughook	= (native function : 0x077DA900)
+   CommandABot	= (native function : 0x080B9908)
+   GetInfectedStats	= (native function : 0x06609CF8)
+   ClearGameEventCallbacks	= (function : 0x069CE820)
+   ScriptDebugRemoveWatch	= (function : 0x0770F8A0)
+   SpawnEntityFromTable	= (native function : 0x080BAA78)
+   srand	= (native function : 0x077D98C0)
+   GetFunctionSignature	= (native function : 0x077DB4C0)
+   AddThinkToEnt	= (native function : 0x069D73C0)
+   suspend	= (native function : 0x077DB800)
+   CTerrorPlayer	= (class : 0x071AA580)
+   VSquirrel_OnCreateScope	= (function : 0x069CCA80)
+   _c480_player = 
+   {
+      __vname	= "_c480_player"
+      __vrefs	= 1
+      self	= ([1] player)
+   }
+   EntCall	= (function : 0x07724FC0)
+   CBaseEntity	= (class : 0x071A9B30)
+   regexp	= (class : 0x047DF840)
+   atan	= (native function : 0x077D8900)
+   ScriptDebugDefaultWatchColor	= (array : 0x076605F0)
+   ScriptDebugClearTraces	= (function : 0x06463270)
+   ScriptDebugWatches	= (array : 0x071C9DB0)
+   Pname	= "lkjdaflkjasdlk"
+   __ReplaceClosures	= (function : 0x07204090)
+   _versionnumber_	= 304
+   ScriptDebugTextIndent	= 0
+   EntIndexToHScript	= (native function : 0x080B9BD8)
+   NetProps	= (instance : 0x04618690)
+   EntFire	= (function : 0x06F77498)
+   rr_CommitAIResponse	= (native function : 0x069D70F0)
+   DebugDrawClear	= (native function : 0x069D6448)
+   TraceLine	= (native function : 0x080B98C0)
+   ScriptDebugTraces = 
+   {
+   }
+   floor	= (native function : 0x077DB040)
+   Entities	= (instance : 0x045FED80)
+   RotatePosition	= (native function : 0x066091B8)
+   log	= (native function : 0x077DA280)
+   EndScriptDebug	= (function : 0x0770EA90)
+   getconsttable	= (native function : 0x077DB100)
+   PlayerInstanceFromIndex	= (native function : 0x080B9C20)
+   ScriptDebugHook	= (function : 0x07206FA0)
+   getroottable	= (native function : 0x077D9CC0)
+   ClearSavedTables	= (native function : 0x069D5F38)
+   Ent	= (function : 0x069CF6C0)
+   fabs	= (native function : 0x077DBE80)
+   array	= (native function : 0x077DA200)
+   DumpObject	= (native function : 0x077D8B80)
+   Msg	= (function : 0x06EDBF30)
+   type	= (native function : 0x077D8A80)
+   StopSoundOn	= (native function : 0x06608318)
+   rand	= (native function : 0x077D8DC0)
+   RestoreTable	= (native function : 0x069D5EA8)
+   printl	= (function : 0x0765A310)
+   ceil	= (native function : 0x077D9200)
+   CNavMesh	= (class : 0x074E0780)
+   QAngle	= (class : 0x047DFA20)
+   EmitSoundOn	= (native function : 0x0660AD90)
+   Decider	= (class : 0x047DD0E0)
+   MakeNamespace	= (native function : 0x077DB880)
+   ReloadMOTD	= (native function : 0x080B9878)
+   rr_GetResponseTargets	= (native function : 0x069D5B90)
+   ScriptDebugTextFilters = 
+   {
+   }
+   ScriptDebugDrawTextEnabled	= true
+   PickupObject	= (native function : 0x069D5F80)
+   DoIncludeScript	= (native function : 0x080B9C68)
+   DropSpit	= (native function : 0x069D5FC8)
+   CCallChainer	= (class : 0x047DC870)
+   ScriptDebugAddTextFilter	= (function : 0x069CCFF0)
+   GetPlayerFromUserID	= (native function : 0x069D55A8)
+   ScriptDebugTextPrint	= (function : 0x077D8640)
+   g_RoundState = 
+   {
+      smStartboxList	= (array : 0x071CE940)
+      smStartboxCenter	= (null : 0x00000000)
+      TrainingHintList	= (array : 0x074F8ED8)
+      smStartboxRemoveAll	= true
+   }
+   g_ClearoutTable	= (null : 0x00000000)
+   HUDSetLayout	= (native function : 0x069D6520)
+   Iflag	= 280
+}
